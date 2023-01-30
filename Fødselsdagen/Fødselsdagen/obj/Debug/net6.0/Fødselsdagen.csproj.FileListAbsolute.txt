@@ -1,0 +1,15 @@
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Fødselsdagen\Fødselsdagen\obj\Debug\net6.0\Fødselsdagen.csproj.AssemblyReference.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Fødselsdagen\Fødselsdagen\obj\Debug\net6.0\Fødselsdagen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Fødselsdagen\Fødselsdagen\obj\Debug\net6.0\Fødselsdagen.AssemblyInfoInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Fødselsdagen\Fødselsdagen\obj\Debug\net6.0\Fødselsdagen.AssemblyInfo.cs
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Fødselsdagen\Fødselsdagen\obj\Debug\net6.0\Fødselsdagen.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Fødselsdagen\Fødselsdagen\bin\Debug\net6.0\Fødselsdagen.exe
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Fødselsdagen\Fødselsdagen\bin\Debug\net6.0\Fødselsdagen.deps.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Fødselsdagen\Fødselsdagen\bin\Debug\net6.0\Fødselsdagen.runtimeconfig.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Fødselsdagen\Fødselsdagen\bin\Debug\net6.0\Fødselsdagen.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Fødselsdagen\Fødselsdagen\bin\Debug\net6.0\Fødselsdagen.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Fødselsdagen\Fødselsdagen\obj\Debug\net6.0\Fødselsdagen.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Fødselsdagen\Fødselsdagen\obj\Debug\net6.0\refint\Fødselsdagen.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Fødselsdagen\Fødselsdagen\obj\Debug\net6.0\Fødselsdagen.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Fødselsdagen\Fødselsdagen\obj\Debug\net6.0\Fødselsdagen.genruntimeconfig.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Fødselsdagen\Fødselsdagen\obj\Debug\net6.0\ref\Fødselsdagen.dll
