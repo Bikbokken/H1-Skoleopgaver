@@ -1,0 +1,15 @@
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Variable og datatyper\Variable og datatyper\obj\Debug\net6.0\Variable og datatyper.csproj.AssemblyReference.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Variable og datatyper\Variable og datatyper\obj\Debug\net6.0\Variable og datatyper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Variable og datatyper\Variable og datatyper\obj\Debug\net6.0\Variable og datatyper.AssemblyInfoInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Variable og datatyper\Variable og datatyper\obj\Debug\net6.0\Variable og datatyper.AssemblyInfo.cs
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Variable og datatyper\Variable og datatyper\obj\Debug\net6.0\Variable og datatyper.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Variable og datatyper\Variable og datatyper\bin\Debug\net6.0\Variable og datatyper.exe
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Variable og datatyper\Variable og datatyper\bin\Debug\net6.0\Variable og datatyper.deps.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Variable og datatyper\Variable og datatyper\bin\Debug\net6.0\Variable og datatyper.runtimeconfig.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Variable og datatyper\Variable og datatyper\bin\Debug\net6.0\Variable og datatyper.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Variable og datatyper\Variable og datatyper\bin\Debug\net6.0\Variable og datatyper.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Variable og datatyper\Variable og datatyper\obj\Debug\net6.0\Variable og datatyper.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Variable og datatyper\Variable og datatyper\obj\Debug\net6.0\refint\Variable og datatyper.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Variable og datatyper\Variable og datatyper\obj\Debug\net6.0\Variable og datatyper.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Variable og datatyper\Variable og datatyper\obj\Debug\net6.0\Variable og datatyper.genruntimeconfig.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Variable og datatyper\Variable og datatyper\obj\Debug\net6.0\ref\Variable og datatyper.dll
