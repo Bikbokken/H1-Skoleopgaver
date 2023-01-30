@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Juletræet med sin pynt/1.0.0": {
+        "runtime": {
+          "Juletræet med sin pynt.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Juletræet med sin pynt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

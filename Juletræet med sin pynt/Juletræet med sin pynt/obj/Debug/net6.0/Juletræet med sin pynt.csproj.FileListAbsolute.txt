@@ -1,0 +1,15 @@
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Juletræet med sin pynt\Juletræet med sin pynt\bin\Debug\net6.0\Juletræet med sin pynt.exe
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Juletræet med sin pynt\Juletræet med sin pynt\bin\Debug\net6.0\Juletræet med sin pynt.deps.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Juletræet med sin pynt\Juletræet med sin pynt\bin\Debug\net6.0\Juletræet med sin pynt.runtimeconfig.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Juletræet med sin pynt\Juletræet med sin pynt\bin\Debug\net6.0\Juletræet med sin pynt.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Juletræet med sin pynt\Juletræet med sin pynt\bin\Debug\net6.0\Juletræet med sin pynt.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Juletræet med sin pynt\Juletræet med sin pynt\obj\Debug\net6.0\Juletræet med sin pynt.csproj.AssemblyReference.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Juletræet med sin pynt\Juletræet med sin pynt\obj\Debug\net6.0\Juletræet med sin pynt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Juletræet med sin pynt\Juletræet med sin pynt\obj\Debug\net6.0\Juletræet med sin pynt.AssemblyInfoInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Juletræet med sin pynt\Juletræet med sin pynt\obj\Debug\net6.0\Juletræet med sin pynt.AssemblyInfo.cs
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Juletræet med sin pynt\Juletræet med sin pynt\obj\Debug\net6.0\Juletræet med sin pynt.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Juletræet med sin pynt\Juletræet med sin pynt\obj\Debug\net6.0\Juletræet med sin pynt.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Juletræet med sin pynt\Juletræet med sin pynt\obj\Debug\net6.0\refint\Juletræet med sin pynt.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Juletræet med sin pynt\Juletræet med sin pynt\obj\Debug\net6.0\Juletræet med sin pynt.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Juletræet med sin pynt\Juletræet med sin pynt\obj\Debug\net6.0\Juletræet med sin pynt.genruntimeconfig.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Juletræet med sin pynt\Juletræet med sin pynt\obj\Debug\net6.0\ref\Juletræet med sin pynt.dll
