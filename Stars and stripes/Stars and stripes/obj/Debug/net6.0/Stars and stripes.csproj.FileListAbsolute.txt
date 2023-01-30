@@ -1,0 +1,15 @@
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Stars and stripes\Stars and stripes\bin\Debug\net6.0\Stars and stripes.exe
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Stars and stripes\Stars and stripes\bin\Debug\net6.0\Stars and stripes.deps.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Stars and stripes\Stars and stripes\bin\Debug\net6.0\Stars and stripes.runtimeconfig.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Stars and stripes\Stars and stripes\bin\Debug\net6.0\Stars and stripes.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Stars and stripes\Stars and stripes\bin\Debug\net6.0\Stars and stripes.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Stars and stripes\Stars and stripes\obj\Debug\net6.0\Stars and stripes.csproj.AssemblyReference.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Stars and stripes\Stars and stripes\obj\Debug\net6.0\Stars and stripes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Stars and stripes\Stars and stripes\obj\Debug\net6.0\Stars and stripes.AssemblyInfoInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Stars and stripes\Stars and stripes\obj\Debug\net6.0\Stars and stripes.AssemblyInfo.cs
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Stars and stripes\Stars and stripes\obj\Debug\net6.0\Stars and stripes.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Stars and stripes\Stars and stripes\obj\Debug\net6.0\Stars and stripes.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Stars and stripes\Stars and stripes\obj\Debug\net6.0\refint\Stars and stripes.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Stars and stripes\Stars and stripes\obj\Debug\net6.0\Stars and stripes.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Stars and stripes\Stars and stripes\obj\Debug\net6.0\Stars and stripes.genruntimeconfig.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Stars and stripes\Stars and stripes\obj\Debug\net6.0\ref\Stars and stripes.dll
