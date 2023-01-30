@@ -1,0 +1,15 @@
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Held og lotto\Held og lotto\bin\Debug\net6.0\Held og lotto.exe
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Held og lotto\Held og lotto\bin\Debug\net6.0\Held og lotto.deps.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Held og lotto\Held og lotto\bin\Debug\net6.0\Held og lotto.runtimeconfig.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Held og lotto\Held og lotto\bin\Debug\net6.0\Held og lotto.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Held og lotto\Held og lotto\bin\Debug\net6.0\Held og lotto.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Held og lotto\Held og lotto\obj\Debug\net6.0\Held og lotto.csproj.AssemblyReference.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Held og lotto\Held og lotto\obj\Debug\net6.0\Held og lotto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Held og lotto\Held og lotto\obj\Debug\net6.0\Held og lotto.AssemblyInfoInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Held og lotto\Held og lotto\obj\Debug\net6.0\Held og lotto.AssemblyInfo.cs
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Held og lotto\Held og lotto\obj\Debug\net6.0\Held og lotto.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Held og lotto\Held og lotto\obj\Debug\net6.0\Held og lotto.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Held og lotto\Held og lotto\obj\Debug\net6.0\refint\Held og lotto.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Held og lotto\Held og lotto\obj\Debug\net6.0\Held og lotto.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Held og lotto\Held og lotto\obj\Debug\net6.0\Held og lotto.genruntimeconfig.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Held og lotto\Held og lotto\obj\Debug\net6.0\ref\Held og lotto.dll
