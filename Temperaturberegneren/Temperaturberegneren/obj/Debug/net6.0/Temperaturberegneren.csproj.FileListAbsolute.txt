@@ -1,0 +1,15 @@
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Temperaturberegneren\Temperaturberegneren\bin\Debug\net6.0\Temperaturberegneren.exe
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Temperaturberegneren\Temperaturberegneren\bin\Debug\net6.0\Temperaturberegneren.deps.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Temperaturberegneren\Temperaturberegneren\bin\Debug\net6.0\Temperaturberegneren.runtimeconfig.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Temperaturberegneren\Temperaturberegneren\bin\Debug\net6.0\Temperaturberegneren.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Temperaturberegneren\Temperaturberegneren\bin\Debug\net6.0\Temperaturberegneren.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Temperaturberegneren\Temperaturberegneren\obj\Debug\net6.0\Temperaturberegneren.csproj.AssemblyReference.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Temperaturberegneren\Temperaturberegneren\obj\Debug\net6.0\Temperaturberegneren.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Temperaturberegneren\Temperaturberegneren\obj\Debug\net6.0\Temperaturberegneren.AssemblyInfoInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Temperaturberegneren\Temperaturberegneren\obj\Debug\net6.0\Temperaturberegneren.AssemblyInfo.cs
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Temperaturberegneren\Temperaturberegneren\obj\Debug\net6.0\Temperaturberegneren.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Temperaturberegneren\Temperaturberegneren\obj\Debug\net6.0\Temperaturberegneren.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Temperaturberegneren\Temperaturberegneren\obj\Debug\net6.0\refint\Temperaturberegneren.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Temperaturberegneren\Temperaturberegneren\obj\Debug\net6.0\Temperaturberegneren.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Temperaturberegneren\Temperaturberegneren\obj\Debug\net6.0\Temperaturberegneren.genruntimeconfig.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Temperaturberegneren\Temperaturberegneren\obj\Debug\net6.0\ref\Temperaturberegneren.dll
