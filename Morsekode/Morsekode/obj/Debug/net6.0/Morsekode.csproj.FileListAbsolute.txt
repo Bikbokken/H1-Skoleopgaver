@@ -1,0 +1,15 @@
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Morsekode\Morsekode\bin\Debug\net6.0\Morsekode.exe
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Morsekode\Morsekode\bin\Debug\net6.0\Morsekode.deps.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Morsekode\Morsekode\bin\Debug\net6.0\Morsekode.runtimeconfig.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Morsekode\Morsekode\bin\Debug\net6.0\Morsekode.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Morsekode\Morsekode\bin\Debug\net6.0\Morsekode.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Morsekode\Morsekode\obj\Debug\net6.0\Morsekode.csproj.AssemblyReference.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Morsekode\Morsekode\obj\Debug\net6.0\Morsekode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Morsekode\Morsekode\obj\Debug\net6.0\Morsekode.AssemblyInfoInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Morsekode\Morsekode\obj\Debug\net6.0\Morsekode.AssemblyInfo.cs
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Morsekode\Morsekode\obj\Debug\net6.0\Morsekode.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Morsekode\Morsekode\obj\Debug\net6.0\Morsekode.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Morsekode\Morsekode\obj\Debug\net6.0\refint\Morsekode.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Morsekode\Morsekode\obj\Debug\net6.0\Morsekode.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Morsekode\Morsekode\obj\Debug\net6.0\Morsekode.genruntimeconfig.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Morsekode\Morsekode\obj\Debug\net6.0\ref\Morsekode.dll
