@@ -1,0 +1,15 @@
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Rumfanget\Rumfanget\bin\Debug\net6.0\Rumfanget.exe
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Rumfanget\Rumfanget\bin\Debug\net6.0\Rumfanget.deps.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Rumfanget\Rumfanget\bin\Debug\net6.0\Rumfanget.runtimeconfig.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Rumfanget\Rumfanget\bin\Debug\net6.0\Rumfanget.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Rumfanget\Rumfanget\bin\Debug\net6.0\Rumfanget.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Rumfanget\Rumfanget\obj\Debug\net6.0\Rumfanget.csproj.AssemblyReference.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Rumfanget\Rumfanget\obj\Debug\net6.0\Rumfanget.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Rumfanget\Rumfanget\obj\Debug\net6.0\Rumfanget.AssemblyInfoInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Rumfanget\Rumfanget\obj\Debug\net6.0\Rumfanget.AssemblyInfo.cs
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Rumfanget\Rumfanget\obj\Debug\net6.0\Rumfanget.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Rumfanget\Rumfanget\obj\Debug\net6.0\Rumfanget.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Rumfanget\Rumfanget\obj\Debug\net6.0\refint\Rumfanget.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Rumfanget\Rumfanget\obj\Debug\net6.0\Rumfanget.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Rumfanget\Rumfanget\obj\Debug\net6.0\Rumfanget.genruntimeconfig.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Rumfanget\Rumfanget\obj\Debug\net6.0\ref\Rumfanget.dll
