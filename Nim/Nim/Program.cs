@@ -6,7 +6,7 @@ public class Program
 {
     class Stats
     {
-        public static int Matches;
+        public static byte Matches;
     }
     static void Main(string[] args)
     {
@@ -15,7 +15,7 @@ public class Program
 
         do
         {
-            int input = PromptAmount();
+            byte input = PromptAmount();
             if(input > Stats.Matches)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -44,8 +44,8 @@ public class Program
                         Console.WriteLine("Du vandt!");
                         return;
                     }
-                    Stats.Matches = Stats.Matches - input;
-                    int computerNum = MakeComputerTake();
+                    Stats.Matches = (byte) (Stats.Matches - input);
+                    byte computerNum = MakeComputerTake();
                     ProcessComputerTake(computerNum);
 
                 }
@@ -57,9 +57,9 @@ public class Program
 
     }
 
-    static void ProcessComputerTake(int number)
+    static void ProcessComputerTake(byte number)
     {
-        Stats.Matches = Stats.Matches- number;
+        Stats.Matches = (byte)(Stats.Matches - number);
 
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine("Jeg trækker " + number);
@@ -70,7 +70,7 @@ public class Program
         }
     }
 
-    static int MakeComputerTake()
+    static byte MakeComputerTake()
     {
         while(true)
         {
@@ -78,13 +78,13 @@ public class Program
             int randomInt = random.Next(1, 4);
             if (randomInt <= Stats.Matches -1)
             {
-                return randomInt;
+                return (byte)randomInt;
             }
         }
     }
-    static int PromptAmount()
+    static byte PromptAmount()
     {
-        int input;
+        byte input;
         while(true)
         {
 
@@ -94,7 +94,7 @@ public class Program
             ResetColor();
             try
             {
-                input = int.Parse(Console.ReadLine());
+                input = byte.Parse(Console.ReadLine());
                 return input;
             } catch(Exception e)
             {
