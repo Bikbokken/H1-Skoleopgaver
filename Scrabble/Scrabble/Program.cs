@@ -9,8 +9,8 @@ public class Program
         {
             int points = 0;
             Console.WriteLine("Skriv det som du ønsker konveteret til points:");
-            char[] input = Console.ReadLine().ToCharArray();
-            foreach (char ch in input)
+            char[] input = Console.ReadLine().ToCharArray(); //Laver inputtet om til et char array
+            foreach (char ch in input) // Looper igennem alle chars i char arrayet.
             {
                 points += GetPoint(ch); // Henter antallet af points for det givne ord og tilføjer den til den summerede points.
             }
@@ -62,6 +62,6 @@ public class Program
             case 'Q':
                 return 8;
         }
-        return 0;
+        return 0; // Matcher characteren ikke en af de ovenstående, så skal den blot returnere 0.
     }
 }
