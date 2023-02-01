@@ -7,7 +7,6 @@ public class Program
     {
         while (true)
         {
-            string words = "";
             int points = 0;
             Console.WriteLine("Skriv det som du ønsker konveteret til points:");
             char[] input = Console.ReadLine().ToCharArray();
@@ -19,6 +18,11 @@ public class Program
         }
     }
 
+    /// <summary>
+    /// Get the point of the input char.
+    /// </summary>
+    /// <param name="input">en character input</param>
+    /// <returns>A byte representing point of the character.</returns>
     static byte GetPoint(char input)
     {
         switch (Char.ToUpper(input))
