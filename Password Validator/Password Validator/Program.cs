@@ -102,7 +102,6 @@ public class Program
         }
         if(status.Length == LengthStatus.Langt) {
             Console.WriteLine("  - Du har et for langt password");
-
         }
         if(status.UpperLowerCase == Stauses.Bad)
         {
@@ -224,7 +223,8 @@ public class Program
     static Stauses CheckLowerAndUpperCase(char[] chars)
     {
         int uppercase = chars.Count(x => Char.IsUpper(x) == true);
-        if (uppercase > 0 && chars.Length > uppercase) // Er der mere end et uppercase char og er antallet af uppercase chars mindre end antallet af ord.
+        int lowercase = chars.Count(x => Char.IsLower(x) == true);
+        if (uppercase > 0 && lowercase != 0 && chars.Length > uppercase) // Er der mere end et uppercase char og er antallet af uppercase chars mindre end antallet af ord.
         {
             return Stauses.Ok;
         }
