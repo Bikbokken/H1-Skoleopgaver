@@ -44,8 +44,12 @@ public class Program {
         // Drive method, adding 20 to meters and removing one percent from battery.
         public void Drive()
         {
-            _meters += 20;
-            _battery -= 1;
+            if(_battery > 0)
+            {
+                _meters += 20;
+                _battery -= 1;
+            }
+
         }
 
         // Charging the car, setting meters to 0 and the battery percent to 100.
