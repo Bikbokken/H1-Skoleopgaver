@@ -1,16 +1,26 @@
 ﻿
 public class Program {
 
+    /// <summary>
+    /// Enum <c>Colours</c> represents the options of colours
+    /// </summary>
     public enum Colours
     {
         Red, Yellow, Green
     }
 
+    /// <summary>
+    /// Class <c>Car</c> models a car.
+    /// </summary>
     public class Car
     {
+        // The amount of battery in the car.
         private int _battery = 100;
-        private int _meters;
+        // The amount of meters driven in the car.
+        private int _meters = 0;
+        // The colour of the car.
         private Colours _colour;
+
 
         public Colours Colour
         {
@@ -31,11 +41,14 @@ public class Program {
             private set { }
         }
 
+        // Drive method, adding 20 to meters and removing one percent from battery.
         public void Drive()
         {
             _meters += 20;
             _battery -= 1;
         }
+
+        // Charging the car, setting meters to 0 and the battery percent to 100.
 
         public void Charge()
         {
@@ -51,9 +64,10 @@ public class Program {
 
     static void Main(string[] args)
     {
-
+        // Intialize two cars
         Car car1 = new Car(Colours.Red);
         Car car2 = new Car(Colours.Green);
+        // Default car
         int carNumber = 1;
         Car car = car1;
         while (true)
@@ -68,7 +82,7 @@ public class Program {
                 switch (choice)
                 {
                     case 1:
-                        if(car.Battery <= 0)
+                        if(car.Battery <= 0) // If the car has less or equal than 0 percent of battery left
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("Du har ikke mere strøm til at fortsætte");
@@ -76,32 +90,32 @@ public class Program {
                         {
                             Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine("Du har kørt 20 meter med bilen!");
-                            car.Drive();
+                            car.Drive(); // Drive the car
                         }
                         break;
                     case 2:
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Du har nu opladet bilen");
-                        car.Charge();
+                        car.Charge(); // Charge the car
                         break;
                     case 3:
                         Console.ForegroundColor = ConsoleColor.Green;
-                        if (carNumber == 1)
+                        if (carNumber == 1) // If the current car is 1
                         {
-                            carNumber = 2;
-                            car1 = car;
-                            car = car2;
+                            carNumber = 2; // Set the current car to 2
+                            car1 = car; // Set car1 object to the current car object
+                            car = car2; // Set the current car object to car2
                             Console.WriteLine("Du har nu skiftet bil til " + carNumber);
                         } else if(carNumber == 2) {
-                            carNumber = 1;
-                            car2 = car;
-                            car = car1;
+                            carNumber = 1; // Set the current car to 1
+                            car2 = car; // Set car2 object to the current car object
+                            car = car1; // Set the current car object to car1
                             Console.WriteLine("Du har nu skiftet bil til " + carNumber);
-                        } else
+                        } else // Just some protection
                         {
-                            carNumber = 1;
-                            car1 = car;
-                            car = car1;
+                            carNumber = 1; // Set the current car to 1
+                            car2 = car; //Set car2 object to the current car object
+                            car = car1; // Set the current car object to car1
                             Console.WriteLine("Du har nu skiftet bil til " + carNumber);
                         }
                         break;
