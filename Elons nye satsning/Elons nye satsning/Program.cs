@@ -82,7 +82,7 @@ public class Program {
             Console.WriteLine("1: Kør med bilen");
             Console.WriteLine("2: Oplad bilen");
             Console.WriteLine("3: Skift bil");
-            if(Int32.TryParse(Console.ReadLine(), out int choice))
+            if(Int32.TryParse(Console.ReadLine(), out int choice)) // Try parse the console readline as an int, if success, out in choice
             {
                 switch (choice)
                 {
