@@ -56,6 +56,7 @@ public class Program {
             _battery = 100;
         }
 
+        //Constructor
         public Car(Colours colour)
         {
             _colour = colour;
