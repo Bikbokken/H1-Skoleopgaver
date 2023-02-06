@@ -1,0 +1,15 @@
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Elons nye satsning\Elons nye satsning\bin\Debug\net6.0\Elons nye satsning.exe
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Elons nye satsning\Elons nye satsning\bin\Debug\net6.0\Elons nye satsning.deps.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Elons nye satsning\Elons nye satsning\bin\Debug\net6.0\Elons nye satsning.runtimeconfig.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Elons nye satsning\Elons nye satsning\bin\Debug\net6.0\Elons nye satsning.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Elons nye satsning\Elons nye satsning\bin\Debug\net6.0\Elons nye satsning.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Elons nye satsning\Elons nye satsning\obj\Debug\net6.0\Elons nye satsning.csproj.AssemblyReference.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Elons nye satsning\Elons nye satsning\obj\Debug\net6.0\Elons nye satsning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Elons nye satsning\Elons nye satsning\obj\Debug\net6.0\Elons nye satsning.AssemblyInfoInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Elons nye satsning\Elons nye satsning\obj\Debug\net6.0\Elons nye satsning.AssemblyInfo.cs
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Elons nye satsning\Elons nye satsning\obj\Debug\net6.0\Elons nye satsning.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Elons nye satsning\Elons nye satsning\obj\Debug\net6.0\Elons nye satsning.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Elons nye satsning\Elons nye satsning\obj\Debug\net6.0\refint\Elons nye satsning.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Elons nye satsning\Elons nye satsning\obj\Debug\net6.0\Elons nye satsning.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Elons nye satsning\Elons nye satsning\obj\Debug\net6.0\Elons nye satsning.genruntimeconfig.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Elons nye satsning\Elons nye satsning\obj\Debug\net6.0\ref\Elons nye satsning.dll
