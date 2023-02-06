@@ -1,6 +1,6 @@
 ﻿public class Identity
 {
-    private string _identity;
+    private string _name;
     private string _mask;
     private string _costume;
     private string _moral;
