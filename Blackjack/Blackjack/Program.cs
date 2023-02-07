@@ -175,7 +175,6 @@
                 Console.WriteLine();
                 Task.Delay(1000).Wait();
                 byte valueOfComputer = gameController.ValueOfCards(gameController.ComputerCards);
-                byte valueOfPlayer = gameController.ValueOfCards(gameController.PlayerCards);
                 if (valueOfComputer > 16) //Basic blackjack, if the computer hits 16 or over, the computer cannot draw any more cards
                 {
                     switch(gameController.CheckCards(gameController.ComputerCards))
@@ -212,15 +211,8 @@
                 {
                     gameController.GiveCard(Participant.Computer);
                 }
-
-
-
             }
-
         }
-
-
-
     }
 
     static void PrintCards(List<Card> cards, bool hideLast)
@@ -241,8 +233,6 @@
             {
                 Console.Write(card.Value + "  ");
             }
-           
         }
     }
-
 }
