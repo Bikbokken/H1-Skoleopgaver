@@ -1,0 +1,15 @@
+C:\Users\Benjamin\Documents\H1-Skoleopgaver\Blackjack\Blackjack\obj\Debug\net6.0\Blackjack.csproj.AssemblyReference.cache
+C:\Users\Benjamin\Documents\H1-Skoleopgaver\Blackjack\Blackjack\obj\Debug\net6.0\Blackjack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Benjamin\Documents\H1-Skoleopgaver\Blackjack\Blackjack\obj\Debug\net6.0\Blackjack.AssemblyInfoInputs.cache
+C:\Users\Benjamin\Documents\H1-Skoleopgaver\Blackjack\Blackjack\obj\Debug\net6.0\Blackjack.AssemblyInfo.cs
+C:\Users\Benjamin\Documents\H1-Skoleopgaver\Blackjack\Blackjack\obj\Debug\net6.0\Blackjack.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\Documents\H1-Skoleopgaver\Blackjack\Blackjack\bin\Debug\net6.0\Blackjack.exe
+C:\Users\Benjamin\Documents\H1-Skoleopgaver\Blackjack\Blackjack\bin\Debug\net6.0\Blackjack.deps.json
+C:\Users\Benjamin\Documents\H1-Skoleopgaver\Blackjack\Blackjack\bin\Debug\net6.0\Blackjack.runtimeconfig.json
+C:\Users\Benjamin\Documents\H1-Skoleopgaver\Blackjack\Blackjack\bin\Debug\net6.0\Blackjack.dll
+C:\Users\Benjamin\Documents\H1-Skoleopgaver\Blackjack\Blackjack\bin\Debug\net6.0\ref\Blackjack.dll
+C:\Users\Benjamin\Documents\H1-Skoleopgaver\Blackjack\Blackjack\bin\Debug\net6.0\Blackjack.pdb
+C:\Users\Benjamin\Documents\H1-Skoleopgaver\Blackjack\Blackjack\obj\Debug\net6.0\Blackjack.dll
+C:\Users\Benjamin\Documents\H1-Skoleopgaver\Blackjack\Blackjack\obj\Debug\net6.0\ref\Blackjack.dll
+C:\Users\Benjamin\Documents\H1-Skoleopgaver\Blackjack\Blackjack\obj\Debug\net6.0\Blackjack.pdb
+C:\Users\Benjamin\Documents\H1-Skoleopgaver\Blackjack\Blackjack\obj\Debug\net6.0\Blackjack.genruntimeconfig.cache
