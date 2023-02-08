@@ -6,7 +6,7 @@ public class Program
     
     static void Main(string[] args)
     {
-        QueueController queueController = new QueueController();
+        QueueController queueController = new QueueController(); // Create Queue Controller
         bool isRunning = true;
         while(isRunning)
         {
@@ -24,28 +24,28 @@ public class Program
             Console.WriteLine("6. Print gæsteliste");
             Console.WriteLine("7. Exit");
 
-            if (Byte.TryParse(Console.ReadLine(), out byte input)) {
+            // Try to parse the byte - if true out to input
+            if (Byte.TryParse(Console.ReadLine(), out byte input)) { 
                 Console.Clear();
-                switch(input)
+                switch(input) // Switch the input
                 {
                     case 1:
-                        Guest guest = AddNewGuest();
-                        queueController.AddGuest(guest);
+                        Guest guest = AddNewGuest(); // Runs the AddNewGuest, which prompts the user for username and age
+                        queueController.AddGuest(guest); // Adds the guest to the queue
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine(guest.Name + " er blevet tilføjet til køen");
                         break;
                     case 2:
-                        if (queueController.guests.Count > 0)
+                        if (queueController.guests.Count > 0) // If there is more than on in the queue
                         {
-
-                            Guest nextInLine = queueController.NextInLine();
+                            Guest nextInLine = queueController.NextInLine(); // Get the next person in line
                             Console.WriteLine("Du kommer til at slette " + nextInLine.Name);
-                            bool result = RemoveNextGuest();
-                            if (result)
+                            bool result = RemoveNextGuest(); // You sure?
+                            if (result) // Yes
                             {
                                 Console.ForegroundColor = ConsoleColor.Green;
                                 Console.WriteLine(nextInLine.Name + " er nu slettet");
-                                queueController.RemoveNextInline();
+                                queueController.RemoveNextInline(); // Remove the guest from the queue
                             }
                             else
                             {
@@ -59,7 +59,7 @@ public class Program
                         break;
                     case 3:
                         int count = queueController.guests.Count;
-                        if (count > 0)
+                        if (count > 0) // Is there more than 0 in the queue
                         {
                             Console.WriteLine("Der er i øjeblikket: " + count + " i kø! ");
                         } else
@@ -68,7 +68,7 @@ public class Program
                         }
                         break;
                     case 4:
-                        if (queueController.guests.Count > 0)
+                        if (queueController.guests.Count > 0) // ISt here more than 0 in the queue
                         {
                             Console.WriteLine("MIN Queue: " + queueController.guests.First().Name);
                             Console.WriteLine("MAX Queue: " + queueController.guests.Last().Name);
@@ -78,19 +78,23 @@ public class Program
                         }
                         break;
                     case 6:
-                        PrintAllGuests(queueController.guests);
+                        PrintAllGuests(queueController.guests); //Runs the PrintAllGusts method
                         break;
                     case 7:
                         isRunning = false;
                         Console.WriteLine("Lukker.");
                         break;
                 }
-                Task.Delay(3000).Wait();
+                Task.Delay(3000).Wait(); // Waits 3 seconds before continuing
             }
             Console.Clear();
         }
     }
 
+    /// <summary>
+    /// Prompt removal of the next guest in queue - the function only serves as a confirmation function.
+    /// </summary>
+    /// <returns>True if the user types 1, false if the user types anything else.</returns>
     static bool RemoveNextGuest()
     {
         Console.WriteLine("Er du sikker på at du ønsker at slette denne gæst? (Skriv 1 for ja)");
@@ -104,7 +108,10 @@ public class Program
         }
     }
 
-
+    /// <summary>
+    /// Prompts the user for name and age for the guest - and creates the guest object.
+    /// </summary>
+    /// <returns>Return the guest object</returns>
     static Guest AddNewGuest()
     {
         Console.Clear();
@@ -116,6 +123,11 @@ public class Program
         return guest;
     }
 
+    /// <summary>
+    /// Prints all the guests from the Guest queue from the parameter
+    /// </summary>
+    /// <param name="guests">Queue of Guest</param>
+    /// <returns>Prints the guests</returns>
     static void PrintAllGuests(Queue<Guest> guests)
     {
         if(guests.Count > 0)

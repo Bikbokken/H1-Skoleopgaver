@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Køen
 {
+
+    /// <summary>
+    /// Guest Object
+    /// </summary>
     public class Guest
     {
         public Guest(string name, byte age)

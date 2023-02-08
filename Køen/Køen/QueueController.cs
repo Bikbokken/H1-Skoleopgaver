@@ -7,6 +7,11 @@ using Køen;
 
 namespace Køen
 {
+
+
+    /// <summary>
+    /// Queue Controller controlling the queue
+    /// </summary>
     public class QueueController
     {
         public Queue<Guest> guests = new Queue<Guest>(); 
