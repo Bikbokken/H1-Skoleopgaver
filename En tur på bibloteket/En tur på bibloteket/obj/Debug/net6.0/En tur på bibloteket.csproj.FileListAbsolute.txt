@@ -1,0 +1,15 @@
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\En tur på bibloteket\En tur på bibloteket\bin\Debug\net6.0\En tur på bibloteket.exe
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\En tur på bibloteket\En tur på bibloteket\bin\Debug\net6.0\En tur på bibloteket.deps.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\En tur på bibloteket\En tur på bibloteket\bin\Debug\net6.0\En tur på bibloteket.runtimeconfig.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\En tur på bibloteket\En tur på bibloteket\bin\Debug\net6.0\En tur på bibloteket.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\En tur på bibloteket\En tur på bibloteket\bin\Debug\net6.0\En tur på bibloteket.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\En tur på bibloteket\En tur på bibloteket\obj\Debug\net6.0\En tur på bibloteket.csproj.AssemblyReference.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\En tur på bibloteket\En tur på bibloteket\obj\Debug\net6.0\En tur på bibloteket.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\En tur på bibloteket\En tur på bibloteket\obj\Debug\net6.0\En tur på bibloteket.AssemblyInfoInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\En tur på bibloteket\En tur på bibloteket\obj\Debug\net6.0\En tur på bibloteket.AssemblyInfo.cs
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\En tur på bibloteket\En tur på bibloteket\obj\Debug\net6.0\En tur på bibloteket.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\En tur på bibloteket\En tur på bibloteket\obj\Debug\net6.0\En tur på bibloteket.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\En tur på bibloteket\En tur på bibloteket\obj\Debug\net6.0\refint\En tur på bibloteket.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\En tur på bibloteket\En tur på bibloteket\obj\Debug\net6.0\En tur på bibloteket.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\En tur på bibloteket\En tur på bibloteket\obj\Debug\net6.0\En tur på bibloteket.genruntimeconfig.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\En tur på bibloteket\En tur på bibloteket\obj\Debug\net6.0\ref\En tur på bibloteket.dll

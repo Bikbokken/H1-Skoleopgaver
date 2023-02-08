@@ -5,15 +5,15 @@
     {
         private string _name;
         private double _mass;
-        private double _diameter;
-        private double _density;
+        private int _diameter;
+        private int _density;
         private double _gravity;
         private double _rotationperiod;
         private double _lengthofdays;
         private double _distancefromsun;
         private double _orbitialperiod;
         private double _orbitialvelocity;
-        private double _meantemp;
+        private int _meantemp;
         private byte _numberofmoons;
         private bool _ringsystem;
 
@@ -21,7 +21,7 @@
         public double Diameter { get { return _diameter; } }
         public double MeanTemperature { get { return _meantemp; } }
 
-        public Planet(string name, double mass, double diameter, double density, double gravity, double rotationperiod, double lengthofdays, double distancefromsun, double orbitialperiod, double orbitialvelocity, double meantemp, byte numberofmoons, bool ringsystem)
+        public Planet(string name, double mass, int diameter, int density, double gravity, double rotationperiod, double lengthofdays, double distancefromsun, double orbitialperiod, double orbitialvelocity, int meantemp, byte numberofmoons, bool ringsystem)
         {
             _name = name;
             _mass = mass;
