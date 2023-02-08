@@ -1,0 +1,15 @@
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Planeterne\Planeterne\bin\Debug\net6.0\Planeterne.exe
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Planeterne\Planeterne\bin\Debug\net6.0\Planeterne.deps.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Planeterne\Planeterne\bin\Debug\net6.0\Planeterne.runtimeconfig.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Planeterne\Planeterne\bin\Debug\net6.0\Planeterne.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Planeterne\Planeterne\bin\Debug\net6.0\Planeterne.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Planeterne\Planeterne\obj\Debug\net6.0\Planeterne.csproj.AssemblyReference.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Planeterne\Planeterne\obj\Debug\net6.0\Planeterne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Planeterne\Planeterne\obj\Debug\net6.0\Planeterne.AssemblyInfoInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Planeterne\Planeterne\obj\Debug\net6.0\Planeterne.AssemblyInfo.cs
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Planeterne\Planeterne\obj\Debug\net6.0\Planeterne.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Planeterne\Planeterne\obj\Debug\net6.0\Planeterne.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Planeterne\Planeterne\obj\Debug\net6.0\refint\Planeterne.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Planeterne\Planeterne\obj\Debug\net6.0\Planeterne.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Planeterne\Planeterne\obj\Debug\net6.0\Planeterne.genruntimeconfig.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Planeterne\Planeterne\obj\Debug\net6.0\ref\Planeterne.dll
