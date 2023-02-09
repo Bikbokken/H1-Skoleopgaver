@@ -43,7 +43,7 @@ namespace En_tur_på_bibloteket
          
         public override string ToString()
         {
-            return "ID: " + Id +  " | Titel: " + Title + " | Forfatter: " + Author + " | Forlag: " + Publisher + " | Sider: " + Pages;
+            return "ID: " + Id +  " | Titel: " + Title + " | Forfatter: " + Author + " | Forlag: " + Publisher + " | Sider: " + Pages + " | " + Age;
          }
     }
 }
