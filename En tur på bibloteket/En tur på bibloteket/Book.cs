@@ -21,16 +21,18 @@ namespace En_tur_på_bibloteket
 
     public class Book
     {
-        public Book(string title, string author, Publisher publisher, int pages)
+        public Book(string title, string author, Publisher publisher, int pages, int age)
         {
             Title = title;
             Author = author;
             Publisher = publisher;
             Pages = pages;
             Avaliabliy = Status.Avaliable;
+            Age = age;
         }
 
         public int Id { get; set; }
+        public int Age { get; set; }
         public Status Avaliabliy { get; set; }
         public string Title { get; set; }
         public string Author { get; set; }

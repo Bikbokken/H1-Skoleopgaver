@@ -22,12 +22,12 @@ namespace En_tur_på_bibloteket
 
         public LibraryController() // Constructor
         {
-            AddBook(new Book("EOW", "Benjamin Burek", Publisher.Gyldendal, 100));
-            AddBook(new Book("Simon", "Simon Burek", Publisher.Gyldendal, 120));
-            AddBook(new Book("C# Programmering", "Eow Burek", Publisher.Benjamin, 10));
-            AddBook(new Book("Python Programmering", "Henrik Du ", Publisher.Gyldendal, 200));
-            AddBook(new Book("Java Programmering", "Tomas Hen", Publisher.Benjamin, 150));
-            AddBook(new Book("JavaScript Programmering", "Lolol", Publisher.Gyldendal, 128));
+            AddBook(new Book("EOW", "Benjamin Burek", Publisher.Gyldendal, 100, 2019));
+            AddBook(new Book("Simon", "Simon Burek", Publisher.Gyldendal, 120, 2022));
+            AddBook(new Book("C# Programmering", "Eow Burek", Publisher.Benjamin, 10, 2000));
+            AddBook(new Book("Python Programmering", "Henrik Du ", Publisher.Gyldendal, 200, 1990));
+            AddBook(new Book("Java Programmering", "Tomas Hen", Publisher.Benjamin, 150, 2002));
+            AddBook(new Book("JavaScript Programmering", "Lolol", Publisher.Gyldendal, 128, 2000));
         }
 
         /// <summary>
