@@ -1,0 +1,31 @@
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\bin\Debug\net7.0\appsettings.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\bin\Debug\net7.0\Dansk Statistisk.staticwebassets.runtime.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\bin\Debug\net7.0\Dansk Statistisk.exe
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\bin\Debug\net7.0\Dansk Statistisk.deps.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\bin\Debug\net7.0\Dansk Statistisk.runtimeconfig.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\bin\Debug\net7.0\Dansk Statistisk.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\bin\Debug\net7.0\Dansk Statistisk.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\Dansk Statistisk.csproj.AssemblyReference.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\Dansk Statistisk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\Dansk Statistisk.AssemblyInfoInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\Dansk Statistisk.AssemblyInfo.cs
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\Dansk Statistisk.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\Dansk Statistisk.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\Dansk Statistisk.RazorAssemblyInfo.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\Dansk Statistisk.RazorAssemblyInfo.cs
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\staticwebassets\msbuild.Dansk Statistisk.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\staticwebassets\msbuild.build.Dansk Statistisk.props
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Dansk Statistisk.props
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Dansk Statistisk.props
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\scopedcss\bundle\Dansk Statistisk.styles.css
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\scopedcss\projectbundle\Dansk Statistisk.bundle.scp.css
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\Dansk Statistisk.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\refint\Dansk Statistisk.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\Dansk Statistisk.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\Dansk Statistisk.genruntimeconfig.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Dansk Statistisk\Dansk Statistisk\obj\Debug\net7.0\ref\Dansk Statistisk.dll

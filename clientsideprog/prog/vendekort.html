@@ -1,0 +1,155 @@
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div id="cards" class="row">
+           
+        </div> 
+    </div>
+    <h1>Du har <span id="points">0</span> point</h1>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+
+<script>
+
+let cardsElement = document.getElementById("cards");
+let pointsElement = document.getElementById("points");
+
+
+let idsFound = [];
+
+let turnedCards = {first: {index: -1, objId: -1}, second:{index: -1, objId: -1}}
+
+let points = 0;
+let block = false;
+
+const shuffleArray = (array) => {
+  const newArray = [...array];
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+  return newArray;
+};
+
+
+let cardsInit = [
+{id: 0, src:"picture1.jpg" },
+{id: 1, src:"picture2.jpg" },
+{id: 2, src:"picture3.jpg" },
+{id: 3, src:"picture4.jpg" },
+{id: 4, src:"picture5.jpg" },
+{id: 5, src:"picture6.jpg" },
+{id: 6, src:"picture7.jpg" },
+{id: 7, src:"picture8.jpg" },
+{id: 8, src:"picture9.jpg" },
+{id: 9, src:"picture10.jpg" },
+{id: 10, src:"picture11.jpg" },
+{id: 11, src:"picture12.jpg" },
+]
+let cards = cardsInit;
+cards = cards.concat(cardsInit)
+
+
+console.table(cards)
+
+function initCards() {
+    let el = "";
+    cards = shuffleArray(cards)
+    for (let index = 0; index < cards.length; index++) {
+        const element = cards[index];
+        let html = `<div class="col-md-2">
+                <img onclick="turnCard(${index}, ${element.id})" class="img-fluid" id="${index}" src="pictures/secret.jpg">
+            </div>`;
+        el += html;
+    }
+    cardsElement.innerHTML = el;
+  
+}
+
+function updatePoints() {
+    pointsElement.innerText = points;
+}
+
+function turnCard(id, objId) {
+    if(!block) {
+        if(turnedCards.first.index === id || turnedCards.second.index === id) {
+            return;
+        }
+        block = true;
+        console.info("Adding block")
+        let element = document.getElementById(id);
+        element.src = "pictures/"+ cards[id].src;
+        
+        if(turnedCards.first.objId == -1) {
+            turnedCards.first.objId = objId;
+            turnedCards.first.index = id;
+            block=false;
+            console.warn("Removing Block")
+        } else {
+            turnedCards.second.objId = objId;
+            turnedCards.second.index = id;
+            if(checkIfSame()) {
+                turnedCards = {first: {index: -1, objId: -1}, second:{index: -1, objId: -1}}
+                points++;
+                updatePoints();
+                idsFound.push(objId);
+                setTimeout(() => {
+                    block=false;
+                }, 1000);
+                if(idsFound.length === cardsInit.length) {
+                    restart();
+                }
+
+                console.warn("Removing Block")
+
+            } else {
+                resetTurnedCards();
+            }
+        }
+    }
+
+}
+
+function restart() {
+    idsFound = [];
+    cardsElement.innerHTML = "";
+    initCards();
+
+}
+
+function resetTurnedCards() {
+    setTimeout(() => {
+        let element = document.getElementById(turnedCards.first.index)
+        console.log(element)
+        element.src= "pictures/secret.jpg";
+        
+        element = document.getElementById(turnedCards.second.index)
+        element.src= "pictures/secret.jpg";
+        turnedCards = {first: {index: -1, objId: -1}, second:{index: -1, objId: -1}}
+        block = false;
+        console.warn("Removing Block")
+
+    }, 1000);
+}
+
+
+function checkIfSame() {
+    return turnedCards.first.objId === turnedCards.second.objId;
+}
+
+initCards();
+
+
+</script>

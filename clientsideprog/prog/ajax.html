@@ -1,0 +1,35 @@
+<html>
+<head>
+
+
+</head>
+
+<body>
+
+    <div id="text-container"></div>
+
+
+
+</body>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var textContainer = document.getElementById("text-container");
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            textContainer.innerText = xhr.responseText;
+        }
+    };
+    xhr.open("GET", "data.txt", true);
+    xhr.send();
+ });
+
+
+</script>
+
+
+
+
+
+</html>

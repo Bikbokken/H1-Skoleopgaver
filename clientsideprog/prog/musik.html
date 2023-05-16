@@ -1,0 +1,160 @@
+<style>
+
+    .playing {
+        background-color:lightgreen;
+    }
+
+</style>
+
+
+<h1>Instrumenter</h1>
+<div id="instruments">
+</div>
+
+<br>
+<h1>Din nuværende liste:</h1>
+<div id="list">
+</div>
+
+<button onclick="playList()">Spil</button>
+<script>
+
+const instrumentHtml = document.getElementById('instruments');
+const listHtml = document.getElementById('list');
+
+let InstrumentList = []
+
+
+class Instrument {
+  constructor(name, sound) {
+    this.name = name;
+    this.sound = sound;
+  }
+  instrumentShow() {
+    return this.name + " ";
+  }
+ 
+  play() {
+    let audio = new Audio(this.sound);
+    audio.play();
+    return audio;
+  }
+}
+
+class Flute extends Instrument {
+  constructor(name, sound, holes, material) {
+    super(name, sound);
+    this.holes = holes;
+    this.material = material;
+  }
+  show() {
+    return this.instrumentShow() + " Holes: " + this.holes + " Material: " + this.material
+  }
+}
+
+class SaxoPhone extends Instrument {
+  constructor(name, sound, holes, material) {
+    super(name, sound);
+    this.material = material;
+  }
+  show() {
+    return this.instrumentShow() + " Material: " + this.material;
+  }
+}
+
+class Stringed extends Instrument {
+  constructor(name, sound, numberOfStrings) {
+    super(name, sound);
+    this.numberOfStrings = numberOfStrings;
+  }
+  showStringed() {
+    return this.instrumentShow() + " Strings: " + this.numberOfStrings;
+  }
+}
+
+class Harp extends Stringed {
+  constructor(name, sound, numberOfStrings, height) {
+    super(name, sound, numberOfStrings);
+    this.height = height;
+  }
+  show() {
+    return this.showStringed() + " Height: " + this.height;
+  }
+}
+
+class Guitar extends Stringed {
+  constructor(name, sound, numberOfStrings, material) {
+    super(name, sound, numberOfStrings);
+    this.material = material;
+  }
+  show() {
+    return this.showStringed() + " Material: " + this.material;
+  }
+}
+
+
+
+let instruments = [
+    new Guitar("Guitar", "guitar.wav", 2, "Brød"), 
+    new Harp("Harp", "harp.wav", 2, 1), 
+    new SaxoPhone("Saxophone", "saxo.wav", 2, "yoo"),  
+    new Flute("Flute", "flute.wav", 2, "material"), 
+]
+
+
+
+
+function setInstrumentsHtml() {
+    let el = "";
+    for (let index = 0; index < instruments.length; index++) {
+        el += `<div style="display:flex">
+            <p>${instruments[index].show()}</p>
+            <button onclick="addInstrumentToList(${index})">Tilføj</button>
+            </div>`
+    }
+    instrumentHtml.innerHTML = el;
+}
+
+
+function updateListHtml() {
+     let el = "";
+    for (let index = 0; index < InstrumentList.length; index++) {
+        el += `<div id="${index}" style="display:flex">
+            <p>${index} | ${InstrumentList[index].show()}</p>
+            <button onclick="removeInstrument(${index})">Slet</button>
+            </div>`
+    }
+    listHtml.innerHTML = el;
+}
+
+function addInstrumentToList(id) {
+    InstrumentList.push(instruments[id]);
+    updateListHtml();
+}
+
+function removeInstrument(id) {
+    InstrumentList.splice(id, 1);
+    updateListHtml();
+}
+
+setInstrumentsHtml();
+let played = false;
+async function playList() {
+    for (let index = 0; index < InstrumentList.length; index++) {
+        played = false;
+        let htmlElement = document.getElementById(index);
+        htmlElement.className = "playing"
+        const element = InstrumentList[index];
+        let audio = element.play();
+        audio.onended = function() {
+            played = true;  
+            console.log("done")
+            htmlElement.className = ""
+        };
+        while(!played) {
+            await new Promise(resolve => setTimeout(resolve, 500));
+        }
+    }
+}
+
+</script>

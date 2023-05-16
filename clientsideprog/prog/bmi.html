@@ -1,0 +1,176 @@
+
+
+<style>
+    p {
+        color:white;
+    }
+    p[data-status^='0'] {
+        background-color:#4193d3;
+    }
+
+    p[data-status^='1'] {
+        background-color:#45b57d;
+    }
+
+    p[data-status^='2'] {
+
+        background-color:#9cc231;
+    }
+
+    p[data-status^='3'] {
+
+        background-color: #f7b71d;
+    }
+
+    p[data-status^='4'] {
+        background-color: #f07f21;
+    }
+
+    p[data-status^='5'] {
+        background-color:#e94b1e;
+    }
+
+    p[data-status^='6'] {
+        background-color:black;
+    }
+
+
+</style>
+
+<label for="height" class="form-label main-font font-weight-900 lh-1 text-white">Height in CM</label>
+<input id="height" type="text" class="form-control main-font font-weight-900 lh-1 text-black">
+
+
+<label for="weight" class="form-label main-font font-weight-900 lh-1 text-white">Weight (KG)</label>
+<input id="weight" type="text" class="form-control main-font font-weight-900 lh-1 text-black">
+<button type="submit" onclick="submit()" class="btn btn-primary main-font font-weight-900 lh-1 text-white">Submit</button>
+
+
+
+<p id="status"></p>
+
+<label for="name" class="form-label main-font font-weight-900 lh-1 text-white">Navn</label>
+<input id="name" type="text" class="form-control main-font font-weight-900 lh-1 text-black">
+<button type="submit" onclick="addName()" class="btn btn-primary main-font font-weight-900 lh-1 text-white">Tilføj</button>
+
+
+<div>
+    <canvas id="myChart"></canvas>
+  </div>
+   
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+
+
+<script>
+    const ctx = document.getElementById('myChart');
+    var chartId = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: [],
+            datasets: [{
+                label: "BMI",
+                data: [
+                ],
+                fill: false,
+                borderColor: 'rgb(75, 192, 192)',
+                tension: 0.1
+            }],
+        },
+        options: {
+         responsive: true,
+       
+        },
+    });
+
+    function addData(chart, label, data) {
+        chart.data.labels.push(label);
+        chart.data.datasets.forEach((dataset) => {
+            dataset.data.push(data);
+        });
+        chart.update();
+    }
+
+
+
+
+
+
+
+
+
+    function calculateBMI(height, weight) {
+        let heightInM = height/100;
+        return (weight/(heightInM*heightInM))
+    }
+
+    const BMImessages = {
+        0: "Du er undervægtig",
+        1: "Du er normalvægtig",
+        2: "Du er overvægtig",
+        3: "Du er førstegrads overvægtig",
+        4: "Du er andengrads overvægtig",
+        5: "Du er tredjegradsovervægtig",
+        6: "Du er ude for rækkevide"
+    }
+
+    function getBmiMessage(bmi) {
+        return BMImessages[bmi]
+    }
+
+    function getBMIStatus(bmi) {
+        console.log(bmi)
+        switch(true) {
+            case bmi < 18.5:
+                return 0;
+            case bmi > 18.5 && bmi < 24:
+                return 1;
+            case bmi > 24 && bmi < 30:
+                return 2;
+            case bmi > 30 && bmi < 35:
+                return 3;
+            case bmi > 35 && bmi < 40:
+                return 4;
+            case bmi < 40:
+                return 5;
+            default:
+                return 6;
+        }
+    }
+
+    const status = document.getElementById('status');
+
+
+    function addName() {
+        let name = document.getElementById('name').value;
+        let bmi = document.getElementById('status').attributes["data-bmi"]["value"];
+        addData(chartId, name, bmi)
+    }
+
+
+    function submit() {
+        let heightInCM  = document.getElementById('height').value;
+        let weightInKG = document.getElementById('weight').value;
+
+        let bmi = calculateBMI(parseInt(heightInCM), parseInt(weightInKG));
+        let bmiStatus = getBMIStatus(bmi);
+        status.setAttribute("data-bmi", bmi)
+        status.setAttribute("data-status", bmiStatus)
+        status.innerHTML = getBmiMessage(bmiStatus);
+        
+    }
+
+
+
+    
+
+    
+
+
+
+
+
+</script>
