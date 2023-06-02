@@ -8,9 +8,9 @@ namespace Automaten
 {
     internal class MachineController : IMachineController
     {
-        private IGuiService _guiService;
-        private IMachine _machine;
-        private IMoneyService _moneyService;
+        private IGuiService _guiService { get; }
+        private IMachine _machine { get; }
+        private IMoneyService _moneyService { get; }
 
         private int selectedSlot = -1;
         private List<Item> _items;

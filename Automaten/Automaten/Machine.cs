@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Automaten
 {
-    internal class Machine : IMachine
+    internal class Machine : IMachine, IMachineAdmin
     {
         
         private List<Item> items { get; set; } = new List<Item>();
@@ -19,6 +19,29 @@ namespace Automaten
         public void RemoveOneAmount(int slot)
         {
             items[slot].Amount = (byte)(items[slot].Amount - Convert.ToByte(1));
+        }
+
+        public void CreateItem(Item item)
+        {
+            items.Add(item);
+        }
+
+        public Item ReadItem(byte slot) { 
+            return items[slot]; 
+        }
+
+        public void UpdateItem(byte slot, Item item)
+        {
+            items[slot] = item;
+        } 
+
+        public void DeleteItem(byte slot)
+        {
+            items.RemoveAt(slot);
+        }
+
+        public void UpdateAmount(byte slot, byte amount) {
+            items[slot].Amount = amount;
         }
 
         public Machine()

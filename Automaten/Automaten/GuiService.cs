@@ -11,8 +11,7 @@ namespace Automaten
 {
     internal class GuiService : IGuiService
     {
-
-        private List<Item> _items;
+        private List<Item> _items { get; set; }
 
         public void SetItems(List<Item> items)
         {

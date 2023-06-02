@@ -13,9 +13,7 @@ namespace Automaten
         void ShowItem(Item item);
         void SetItems(List<Item> items);
         bool ConfirmOrder(int selectedItem);
-
         void ShowOrder(int selectedItem);
-
         void ShowMachineStatus(double money);
 
     }
