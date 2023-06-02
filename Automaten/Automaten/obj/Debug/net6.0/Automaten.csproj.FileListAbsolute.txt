@@ -1,0 +1,15 @@
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\bin\Debug\net6.0\Automaten.exe
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\bin\Debug\net6.0\Automaten.deps.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\bin\Debug\net6.0\Automaten.runtimeconfig.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\bin\Debug\net6.0\Automaten.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\bin\Debug\net6.0\Automaten.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\obj\Debug\net6.0\Automaten.csproj.AssemblyReference.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\obj\Debug\net6.0\Automaten.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\obj\Debug\net6.0\Automaten.AssemblyInfoInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\obj\Debug\net6.0\Automaten.AssemblyInfo.cs
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\obj\Debug\net6.0\Automaten.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\obj\Debug\net6.0\Automaten.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\obj\Debug\net6.0\refint\Automaten.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\obj\Debug\net6.0\Automaten.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\obj\Debug\net6.0\Automaten.genruntimeconfig.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\obj\Debug\net6.0\ref\Automaten.dll

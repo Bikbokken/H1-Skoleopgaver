@@ -1,0 +1,15 @@
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\HowToOOP\HowToOOP\bin\Debug\net6.0\HowToOOP.exe
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\HowToOOP\HowToOOP\bin\Debug\net6.0\HowToOOP.deps.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\HowToOOP\HowToOOP\bin\Debug\net6.0\HowToOOP.runtimeconfig.json
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\HowToOOP\HowToOOP\bin\Debug\net6.0\HowToOOP.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\HowToOOP\HowToOOP\bin\Debug\net6.0\HowToOOP.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\HowToOOP\HowToOOP\obj\Debug\net6.0\HowToOOP.csproj.AssemblyReference.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\HowToOOP\HowToOOP\obj\Debug\net6.0\HowToOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\HowToOOP\HowToOOP\obj\Debug\net6.0\HowToOOP.AssemblyInfoInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\HowToOOP\HowToOOP\obj\Debug\net6.0\HowToOOP.AssemblyInfo.cs
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\HowToOOP\HowToOOP\obj\Debug\net6.0\HowToOOP.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\HowToOOP\HowToOOP\obj\Debug\net6.0\HowToOOP.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\HowToOOP\HowToOOP\obj\Debug\net6.0\refint\HowToOOP.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\HowToOOP\HowToOOP\obj\Debug\net6.0\HowToOOP.pdb
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\HowToOOP\HowToOOP\obj\Debug\net6.0\HowToOOP.genruntimeconfig.cache
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\HowToOOP\HowToOOP\obj\Debug\net6.0\ref\HowToOOP.dll
