@@ -4,7 +4,12 @@ public class Program
 {
     static void Main(string[] args)
     {
-        IMachineController machineController = new MachineController(new GuiService(), new Machine(), new MoneyService());
+
+        Machine machine = new Machine();
+        MoneyService moneyService = new MoneyService();
+
+        IAdminController adminController = new AdminController(moneyService, machine);
+        IMachineController machineController = new MachineController(new GuiService(), machine, moneyService);
         
         while(true)
         {
