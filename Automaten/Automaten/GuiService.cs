@@ -39,8 +39,8 @@ namespace Automaten
             
             foreach (Item item in _items)
             {
-                int index = _items.FindIndex(a => a == item);
-                if(item.Amount > 0)
+                int index = _items.FindIndex(a => a == item); // Which index does the item exist in?
+                if(item.Amount > 0) // Is the amount of the item more than one
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
                 } else
@@ -62,7 +62,7 @@ namespace Automaten
         }
 
         private bool DoesItemExist(int slot) {
-            return _items.Count > slot && _items[slot] != null;
+            return _items.Count > slot && _items[slot] != null; // If the index og the item exist and the items count is not greather than the index - then return true
         }
 
 
@@ -80,16 +80,16 @@ namespace Automaten
 
             bool hasCancelled = false;
 
-            Stopwatch stopwatch = new Stopwatch();
-            stopwatch.Start();
+            Stopwatch stopwatch = new Stopwatch(); // Create a Stopwatch
+            stopwatch.Start(); // Start the stopwatch
 
             int countdownSeconds = 5;
-            while (stopwatch.Elapsed.TotalSeconds < countdownSeconds)
+            while (stopwatch.Elapsed.TotalSeconds < countdownSeconds) // While the total seconds elapsed is less than 5 seconds
             {
-                if (Console.KeyAvailable && Console.ReadKey(true).Key == ConsoleKey.Spacebar)
+                if (Console.KeyAvailable && Console.ReadKey(true).Key == ConsoleKey.Spacebar) // If the user presses Space
                 {
                     
-                    stopwatch.Stop();
+                    stopwatch.Stop(); // Stop the stopwatch
                     hasCancelled = true;
                     break;
                 }
@@ -109,11 +109,11 @@ namespace Automaten
                 Thread.Sleep(1000);
                 Console.Clear();
             }
-            if (!stopwatch.IsRunning)
+            if (!stopwatch.IsRunning) // If the stopwatch is not running anymore
             {
                 stopwatch.Stop();
             }
-            stopwatch.Stop();
+            stopwatch.Stop(); // Stop the stopwatch
 
             if(hasCancelled)
             {
@@ -127,7 +127,7 @@ namespace Automaten
 
         private bool CheckAvailability(int slot)
         {
-            return _items[slot].Amount > 0;
+            return _items[slot].Amount > 0; // Check if the item on the "slot" index has more than 0 items
         }
 
         public int PromptOrder()
@@ -137,12 +137,12 @@ namespace Automaten
             Console.WriteLine("Skriv slot tallet på produktet du ønsker at købe: ");
             Console.WriteLine();
             int myid;
-            string input = Console.ReadLine();
+            string input = Console.ReadLine(); // Read the input of the user
             bool isInt = int.TryParse(input, out myid);
-            if (isInt)
+            if (isInt) // Validate that the input is a int
             {
-                bool doesItemExist = DoesItemExist(myid);
-                bool isItemAvaliable = CheckAvailability(myid);
+                bool doesItemExist = DoesItemExist(myid); // Does the item even exist?
+                bool isItemAvaliable = CheckAvailability(myid); // Is the item even avaliable?
                 if (doesItemExist && isItemAvaliable)
                 {
                     Console.WriteLine("Du har valgt " + myid);

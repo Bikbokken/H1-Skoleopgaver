@@ -17,13 +17,13 @@ namespace Automaten
 
         public void ConfirmOrder()
         {
-            bool hasCancelled = _guiService.ConfirmOrder(selectedSlot);
+            bool hasCancelled = _guiService.ConfirmOrder(selectedSlot); // Prompt the user for confirmation
             if(!hasCancelled)
             {
-                MakeOrder();
+                MakeOrder(); // Make the order if the order is confirmed
             } else
             {
-                ResetOrder();
+                ResetOrder(); // Reset the order if not confirmed
             }
         }
 
@@ -54,7 +54,7 @@ namespace Automaten
         public bool PromptOrder()
         {
             int slot = _guiService.PromptOrder();
-            if (slot != -1)
+            if (slot != -1) // Check if the prompt order is not invalid (PromptOrder() returns -1 if the order is not valid
             {
                 selectedSlot = slot;
                 return true;
@@ -69,8 +69,8 @@ namespace Automaten
 
         private void FetchProducts()
         {
-            _items = _machine.GetAllItems();
-            _guiService.SetItems(_items);
+            _items = _machine.GetAllItems(); // Contact the machine and get all the items and set the local cache
+            _guiService.SetItems(_items); // Set the local cache of the guiService 
         }
 
         public MachineController(IGuiService guiService, IMachine machine, IMoneyService moneyService)
