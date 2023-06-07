@@ -23,12 +23,15 @@ namespace FightArena
         /// </summary>
         public void ShowWinner(Hero hero)
         {
+            Console.ForegroundColor = ConsoleColor.Yellow; // Change the color of the console to yellow.
             Console.Clear();
-            Console.WriteLine("");
+            Console.WriteLine("=========================================");
             Console.WriteLine("");
             Console.WriteLine("VINDEREN ER:");
             Console.WriteLine(hero);
             Console.WriteLine("");
+            Console.WriteLine("=========================================");
+            Console.ForegroundColor = ConsoleColor.Gray; // Change color of the console to gray
         }
 
         /// <summary>
@@ -36,10 +39,14 @@ namespace FightArena
         /// </summary>
         public void ShowNextRound()
         {
+            Console.ForegroundColor= ConsoleColor.Green; // Change color of the console to green
             Console.Clear();
-            Console.WriteLine("==========");
+            Console.WriteLine("=========================================");
+            Console.WriteLine();
             Console.WriteLine("NÆSTE RUNDE");
-            Console.WriteLine("==========");
+            Console.WriteLine();
+            Console.WriteLine("=========================================");
+            Console.ForegroundColor = ConsoleColor.Gray; // Change Color of the console to gray
         }
 
         /// <summary>
@@ -47,7 +54,7 @@ namespace FightArena
         /// </summary>
         public void ShowScoreboard(List<KeyValuePair<int, Hero>> scoreboard)
         {
-            Console.WriteLine("Superhelte i samme gruppe kommer itl at kæmpe mod hinanden!");
+            Console.WriteLine("Superhelte i samme gruppe kommer til at kæmpe mod hinanden!");
             Console.WriteLine("Gruppe : Hero");
             foreach (KeyValuePair<int, Hero> item in scoreboard) // Loop thorugh every item in the scoreboard.
             {
