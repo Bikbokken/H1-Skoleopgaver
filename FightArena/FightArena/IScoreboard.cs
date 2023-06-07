@@ -8,8 +8,6 @@ namespace FightArena
 {
     internal interface IScoreboard
     {
-        public List<KeyValuePair<int, Hero>> GetPools();
-        public void GenerateGroups();
         public void DeleteFromScoreboard(Hero hero, int group);
         public List<KeyValuePair<int, Hero>> GetGroup(int id);
         public List<KeyValuePair<int, Hero>> GetScoreboard();

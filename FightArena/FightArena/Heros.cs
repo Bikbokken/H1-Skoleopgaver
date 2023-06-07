@@ -19,28 +19,29 @@ namespace FightArena
     internal abstract class Hero
     {
         public virtual int HitPoints { get; set;  }
-        public virtual Range AttackRange { get; set; }
-        public virtual Range Defence { get; set; }
+        public abstract Range AttackRange { get; }
+        public abstract Range Defence { get; }
 
         public void Attack(int num)
         {
-            Random r = new Random();
-            int defence = r.Next(Defence.Start, Defence.End);
+            Random r = new Random(); // Generate a random
+            int defence = r.Next(Defence.Start, Defence.End); // Get a random defence number
 
-            if (defence - num > 0)
+            if (defence - num > 0) // If defence - num is greather than 0
             {
-                HitPoints = HitPoints - (defence - num);
+                HitPoints -= (defence - num); // Subtract hitpoints with defense - num
             }
         }
 
+        /// <summary>
+        /// Incremenets the number of points in the object
+        /// </summary>
         public void IncrementPoints(int num)
         {
-            HitPoints += num;
+            HitPoints += num; // Increment the hitpoints of the object.
         }
 
-        public Hero(int hitpoints) {
-            HitPoints = hitpoints;
-        }
+        
 
 
     }
@@ -49,14 +50,19 @@ namespace FightArena
         public override Range AttackRange { get { return new Range(2,2); } }
         public override Range Defence { get { return new Range(5,5); } }
 
-        public Harry(int hitpoints) : base(hitpoints) { } 
+        public Harry(){
+            HitPoints = 120;
+        } 
     }
 
     internal sealed class Dino : Hero
     {
         public override Range AttackRange { get { return new Range(6, 8); } }
         public override Range Defence { get { return new Range(2, 8); } }
-        public Dino(int hitpoints) : base(hitpoints) { }
+        public Dino()
+        {
+            HitPoints = 70;
+        }
 
     }
 
@@ -64,7 +70,10 @@ namespace FightArena
     {
         public override Range AttackRange { get { return new Range(2, 5); } }
         public override Range Defence { get { return new Range(3, 3); } }
-        public Karl(int hitpoints) : base(hitpoints) { }
+        public Karl()
+        {
+            HitPoints = 90;
+        }
 
     }
 
@@ -72,23 +81,34 @@ namespace FightArena
     {
         public override Range AttackRange { get { return new Range(1, 13); } }
         public override Range Defence { get { return new Range(5, 5); } }
-        public Gunner(int hitpoints) : base(hitpoints) { }
-
+        public Gunner()
+        {
+            HitPoints = 90;
+        }
     }
+
+    
 
     internal sealed class Mikkel : Hero
     {
         public override Range AttackRange { get { return new Range(9, 9); } }
         public override Range Defence { get { return new Range(9, 9); } }
-        public Mikkel(int hitpoints) : base(hitpoints) { }
+        public Mikkel()
+        {
+            HitPoints = 40;
+        }
 
+    
     }
 
     internal sealed class Tiger : Hero
     {
         public override Range AttackRange { get { return new Range(3, 6); } }
         public override Range Defence { get { return new Range(4, 4); } }
-        public Tiger(int hitpoints) : base(hitpoints) { }
+        public Tiger()
+        {
+            HitPoints = 35;
+        }
 
     }
 
@@ -96,7 +116,10 @@ namespace FightArena
     {
         public override Range AttackRange { get { return new Range(6, 6); } }
         public override Range Defence { get { return new Range(8, 8); } }
-        public Ivan(int hitpoints) : base(hitpoints) { }
+        public Ivan()
+        {
+            HitPoints = 70;
+        }
 
     }
 
@@ -105,7 +128,10 @@ namespace FightArena
         public int WeightKilos { get { return 300;  } }
         public override Range AttackRange { get { return new Range(5, 11); } }
         public override Range Defence { get { return new Range(4, 4); } }
-        public Egon(int hitpoints) : base(hitpoints) { }
+        public Egon()
+        {
+            HitPoints = 90;
+        }
 
     }
 
