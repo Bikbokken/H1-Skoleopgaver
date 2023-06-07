@@ -13,3 +13,14 @@ C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\obj\Debug\net6.0\ref
 C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\obj\Debug\net6.0\Automaten.pdb
 C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\obj\Debug\net6.0\Automaten.genruntimeconfig.cache
 C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\obj\Debug\net6.0\ref\Automaten.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\bin\Debug\net6.0\ADO.Net.Client.Annotations.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\bin\Debug\net6.0\ADO.Net.Client.Core.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\bin\Debug\net6.0\Npgsql.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Bruger\Desktop\H1-Skoleopgaver\Automaten\Automaten\obj\Debug\net6.0\Automaten.csproj.CopyComplete

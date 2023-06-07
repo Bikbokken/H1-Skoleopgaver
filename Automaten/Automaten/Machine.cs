@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using Npgsql;
+using System.Data.SqlClient;
 
 namespace Automaten
 {
@@ -10,6 +9,8 @@ namespace Automaten
     {
         
         private List<Item> items { get; set; } = new List<Item>();
+
+        private NpgsqlConnection _dbConnection;
 
         public List<Item> GetAllItems()
         {
@@ -44,16 +45,49 @@ namespace Automaten
             items[slot].Amount = amount;
         }
 
+        private async void FetchProducts()
+        {
+            
+        }
+
         public Machine()
         {
-            items.Add(new Drink("Coca Cola", 1, 19.20, 0.1));
-            items.Add(new Drink("Fanta", 6, 10.20, 0.1));
-            items.Add(new Drink("Faxe Kondi", 10, 2.20, 0.5));
-            items.Add(new Drink("DR Pepper", 3, 7.20, 0.4));
-            items.Add(new Drink("Fanta Lime", 0, 4.20, 0.3));
-            items.Add(new Snack("Kims Chips SC", 2, 9.20, "Sour Cream"));
-            items.Add(new Snack("Lays Salt", 2, 20.20, "Salt"));
-            items.Add(new Snack("Kims Snack Chips", 2, 30.20, "Snack Chips"));
+
+            string connectionString = "Host=127.0.0.1;Port=5432;Database=postgres;Username=postgres;Password=Kode1234!";
+
+            _dbConnection = new NpgsqlConnection(connectionString);
+            _dbConnection.Open();
+
+            using (NpgsqlConnection connection = _dbConnection)
+            {
+                try
+                {
+                    using (NpgsqlCommand command = new NpgsqlCommand())
+                    {
+                        command.Connection = connection;
+                        command.CommandText = "SELECT * FROM item WHERE automat = ($1)";
+                        command.Parameters.Add(new NpgsqlParameter() { Value = 1 });
+
+                        using (NpgsqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                items.Add(new Item(reader.GetInt32(0), reader.GetString(1), (byte)reader.GetInt32(2), reader.GetInt32(3)));
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("An error occurred: " + ex.Message);
+                }
+                finally
+                {
+                    connection.Close();
+                }
+            }
+
+
 
         }
     }

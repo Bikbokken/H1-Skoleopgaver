@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace Automaten
 {
-    public abstract class Item
+    public class Item
     {
+        public int Id { get; }
         public string Name { get; }
         public byte Amount { get; set; } // Skal kunne blive opdateret af vores Machine - derfor er der en set
         public double Price { get; }
 
-        public Item(string name, byte amount, double price) {
+        public Item(int id,  string name, byte amount, double price) {
+            this.Id = id;
             this.Name = name;
             this.Amount = amount;
             this.Price = price;
@@ -24,7 +26,7 @@ namespace Automaten
     {
         public double Liters { get; }
 
-        public Drink(string name, byte amount, double price, double Liters) : base(name, amount, price)
+        public Drink(int id, string name, byte amount, double price, double Liters) : base(id, name, amount, price)
         {
             this.Liters = Liters;
         }
@@ -35,7 +37,7 @@ namespace Automaten
     {
         public string Flavour { get; }
 
-        public Snack(string name, byte amount, double price, string flavour) : base(name, amount, price)
+        public Snack(int id, string name, byte amount, double price, string flavour) : base(id, name, amount, price)
         {
             this.Flavour = flavour;
         }

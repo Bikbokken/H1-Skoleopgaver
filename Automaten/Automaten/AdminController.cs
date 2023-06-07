@@ -8,7 +8,7 @@ namespace Automaten
 {
     internal class AdminController : IAdminController
     {
-        private IMoneyAdmin _moneyAdmin { get; }
+        private IMoneyAdmin _moneyAdmin { get; } // 
         private IMachineAdmin _machineAdmin { get; }
 
         public void RemoveCash(int amount)
