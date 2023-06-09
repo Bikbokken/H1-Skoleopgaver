@@ -20,6 +20,7 @@ namespace Automaten
 
         public void ShowMachineStatus(double money)
         {
+            Console.Clear();
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine();
             Console.WriteLine();

@@ -10,7 +10,8 @@ namespace Automaten
         
         private List<Item> items { get; set; } = new List<Item>();
 
-        private NpgsqlConnection _dbConnection;
+
+        string connectionString = "Host=127.0.0.1;Port=5432;Database=postgres;Username=postgres;Password=Kode1234!";
 
         public List<Item> GetAllItems()
         {
@@ -20,6 +21,8 @@ namespace Automaten
         public void RemoveOneAmount(int slot)
         {
             items[slot].Amount = (byte)(items[slot].Amount - Convert.ToByte(1));
+            DecrementOneDatabase(items[slot].Id);
+            FetchProducts();
         }
 
         public void CreateItem(Item item)
@@ -45,19 +48,12 @@ namespace Automaten
             items[slot].Amount = amount;
         }
 
-        private async void FetchProducts()
+        private void FetchProducts()
         {
-            
-        }
+            NpgsqlConnection _dbConnection = new NpgsqlConnection(connectionString);
+            items.Clear();
 
-        public Machine()
-        {
-
-            string connectionString = "Host=127.0.0.1;Port=5432;Database=postgres;Username=postgres;Password=Kode1234!";
-
-            _dbConnection = new NpgsqlConnection(connectionString);
             _dbConnection.Open();
-
             using (NpgsqlConnection connection = _dbConnection)
             {
                 try
@@ -65,7 +61,7 @@ namespace Automaten
                     using (NpgsqlCommand command = new NpgsqlCommand())
                     {
                         command.Connection = connection;
-                        command.CommandText = "SELECT * FROM item WHERE automat = ($1)";
+                        command.CommandText = "SELECT * FROM read_items_automat($1)";
                         command.Parameters.Add(new NpgsqlParameter() { Value = 1 });
 
                         using (NpgsqlDataReader reader = command.ExecuteReader())
@@ -87,6 +83,41 @@ namespace Automaten
                 }
             }
 
+        }
+
+        private void DecrementOneDatabase(int id)
+        {
+            NpgsqlConnection _dbConnection = new NpgsqlConnection(connectionString);
+            _dbConnection.Open();
+            using (NpgsqlConnection connection = _dbConnection)
+            {
+                try
+                {
+                    using (NpgsqlCommand command = new NpgsqlCommand())
+                    {
+                        command.Connection = connection;
+                        command.CommandText = "call decrement_quantity($1)";
+                        command.Parameters.Add(new NpgsqlParameter() { Value = id });
+
+                        command.ExecuteNonQuery();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("An error occurred: " + ex.Message);
+                }
+                finally
+                {
+                    connection.Close();
+                }
+            }
+        }
+
+        public Machine()
+        {
+            FetchProducts();
+
+            
 
 
         }
